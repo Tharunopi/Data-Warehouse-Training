@@ -94,3 +94,11 @@ GROUP BY Supplier
 SELECT * FROM ProductInventory
 WHERE Quantity <= 30
 
+--6.19
+SELECT TOP 1 Supplier, COUNT(ProductName) AS NumOfProducts FROM ProductInventory
+GROUP BY Supplier
+ORDER BY COUNT(ProductName) DESC
+
+--6.20
+SELECT TOP 1 *, (Quantity * UnitPrice) AS TotalStockValue FROM ProductInventory
+ORDER BY (Quantity * UnitPrice) DESC
