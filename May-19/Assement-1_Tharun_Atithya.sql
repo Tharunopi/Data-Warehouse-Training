@@ -12,7 +12,7 @@ CREATE TABLE ProductInventory(
 
 INSERT INTO ProductInventory
 VALUES 
-	('Laptop', 'Electronics', 20, 70000, 'Tech Mart', '2025-04-20'),
+	('Laptop', 'Electronics', 20, 70000, 'TechMart', '2025-04-20'),
 	('Office Chair', 'Furniture', 50, 5000, 'HomeComfort', '2025-04-18'),
 	('Smartwatch', 'Electronics', 30, 15000, 'GadgetHub', '2025-04-22'),
 	('Desk Lamp', 'Lighting', 80, 1200, 'BrightLife', '2025-04-25'),
