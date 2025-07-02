@@ -1,0 +1,12 @@
+name: Tharun
+
+on: push
+
+jobs: 
+    print:
+        runs-on: ubuntu-latest
+        steps:
+            - name: test_1
+              shell: bash
+              run: python test-1.py
+              working-directory: ./src
